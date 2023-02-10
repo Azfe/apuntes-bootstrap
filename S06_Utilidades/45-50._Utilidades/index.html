@@ -9,6 +9,12 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
     <title>Utilities</title>
+
+    <style>
+      .height{
+        height: 500px;
+      }
+    </style>
   </head>
   <body>
     <div class="container bg-light py-4">
@@ -45,20 +51,26 @@
         <a href="" class="bg-warning">Soy un ancla</a>
         <a href="" class="bg-warning">Soy un ancla</a>
 
+        <br><br>
+
         <!-- Flex -->
-        <div class="d-flex justify-content-center">
-            <div>Elemento 1</div>
-            <div>Elemento 2</div>
-            <div>Elemento 3</div>
+        <div class=" height bg-danger d-flex justify-content-center align-items-center">
+            <div class="mr-2">Elemento 1</div>
+            <div class="mr-2">Elemento 2</div>
+            <div class="mr-2">Elemento 3</div>
         </div>
 
+        <br><br>
 
-
-
+        <!-- Sizing -->
+        <div class="bg-dark py-3 w-25">Primer elemento</div>
+        <div class="bg-primary py-3 w-75">Segundo elemento</div>
+        <div class="bg-warning py-3 w-50">Tercer elemento</div>
+        <div class="bg-danger py-3 w-25">Cuarto elemento</div>
+        <div class="height">
+          <div class="bg-info py-3 h-100">Quinto elemento</div>
+        </div>        
     </div>
-
-
-
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
