@@ -44,19 +44,19 @@
 
     // CUERPO DEL MENSAJE
     //$content = 'Nombre: '.$name.'\n';
-    $content = 'Nombre: ';
+    $content = "Nombre: ";
     $content .= $name;
-    $content .= '\n';
+    $content .= "\n";
     
     //$content .= 'Email: '.$email.'\n';
-    $content .= 'Email: ';
+    $content .= "Email: ";
     $content .= $email;
-    $content .= '\n';
+    $content .= "\n";
     
     //$content .= 'Mensaje: '.$message.'\n';
-    $content .= 'Mensaje: ';
+    $content .= "Mensaje: ";
     $content .= $message;
-    $content .= '\n';
+    $content .= "\n";
 
     //DIRECCIÓN
     $sendTo = 'alexzapata1984@gmail.com';
